@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ms+Madi&family=PT+Sans+Narrow&family=Parisienne&family=Playfair+Display&family=Satisfy&display=swap');
+a{
+    text-decoration: none;
+}
+.navbar {
+    background-color: #82471E
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+}
+
+.home{
+    position: relative;
+}
+.home img{
+    height: 500px;
+    width: 100%;
+}
+.home .title{
+    position: absolute;
+    text-align: center;
+    /* padding: auto; */
+    top: 35%;
+    left: 40%;
+}
+.title h1{
+    color: #FCFC4B;
+    font-family: 'Dancing Script', cursive;
+    font-size:  65px;
+
+}
+.title p{
+    color: #FCFC4B;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+/* -------------------------------------------- */
+.more .row{
+    background-color: #82471E;
+}
+.card{
+    width: 18rem
+}
+.card-body{
+    color: #82471E;
+    font-family: 'Playfair Display', serif;
+}
+.btn {
+    color:#82471E;
+    padding: 2px;
+}
+.col-4{
+    padding-top: 300px;
+}
+
+.col-4 h3{
+    color: #FCFC4B;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.col-4 img{
+    padding-left: 10px;
+}
+/* ------------------------------------------ */
+.pict{
+    /* height: 500px; */
+    position: relative;
+}
+.pict img{
+    width: 100%;
+    height: auto;
+}
+.pict h3{
+    position: absolute;
+    color: #FCFC4B;
+    top: 50%;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+}
+
+/* ------------------------------------------- */
+.review .row{
+    background-color: #82471E;
+}
+.review .row .col-3{
+    padding-left: 100px;
+    /* width: 40%; */
+}
+
+.review .row .col-3 img{
+    height: 300px;
+    border-radius: 10% 10% 0% 0%;
+    
+}
+.review .card{
+    border-radius: 10%;
+    padding-bottom: 20px;
+}
+.review .card h5{
+    color: #82471E;
+}
+.review{
+    background-color: #82471E;
+    padding-bottom: 20px;
+}
+.review h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    /* background-color: #82471E; */
+    color: #FCFC4B;
+    font-size: 50px;
+}
+/* hr{
+    background-color: #82471E;
+    color:#FCFC4B;
+    border-radius: ;
+} */
+/* ------------------------------------------ */
+.contact .card{
+    width: 100%;
+}
+.contact .card img{
+    width: 100%;
+    position: relative;
+}
+.contact .card h5{
+    color: #FCFC4B;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    top: 50%;
+    margin-top: 30rem;
+    font-size: 50px;
+}
+
+.contact .con1{
+    padding-left: 40%;
+    color: #FCFC4B;
+}
+
+/* .contact .con2{
+    padding-left: 60%;
+    padding-top: 10px;
+} */
+
+
